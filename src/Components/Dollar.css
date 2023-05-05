@@ -1,0 +1,159 @@
+._dollar {
+    background-color: #df4146;
+    padding: 7rem 0;
+}
+
+.container {
+    /* margin: auto; */
+    background-image: url("./img/saf.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+    position: relative;
+
+}
+
+.container2 {
+    margin: auto;
+}
+
+._parent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    width: 74%;
+    margin: auto;
+}
+
+/* ._parent .left {
+    margin-left: 77px;
+    width: 39%;
+    margin-top: 80px;
+    font-size: 28px;
+} */
+
+._parent .left .content .heading {
+    color: #fff;
+    text-align: left;
+    font-size: 75px;
+    margin-bottom: 0;
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+._parent .left .content .text {
+    color: #fff;
+    text-align: left;
+    font-size: 35px;
+    width: 100%;
+    font-family: Courier New;
+    font-weight: 600;
+}
+
+.sociallisting {
+    display: flex;
+    padding: 0;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 3.5rem 0 0 0;
+}
+
+.sociallisting li {
+    margin-inline: 2.5rem;
+    list-style-type: none;
+    height: 80px;
+    width: 80px;
+}
+
+.sociallisting li a img {
+    width: 100%;
+}
+
+._imgholder {
+    width: 476px;
+    height: 483px;
+}
+
+._imgwrap {
+    margin-right: 4%;
+}
+
+._imgholder img {
+    width: 100%;
+}
+
+._buttonholder {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 1100px;
+    margin: 100px auto 0;
+    gap: 1.8rem;
+}
+
+._buttonholder .pill {
+    border-radius: 50px;
+    border: 1px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    font-weight: 600;
+    width: 319px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    justify-content: flex-end;
+    text-decoration: none;
+    content: attr(data-title) !important;
+
+}
+
+._buttonholder .pill ._imgwrap img {
+    height: 34px;
+    width: 34px;
+    margin-left: 41px;
+}
+
+._buttonholder .pill:hover {
+    background-color: rgba(255, 255, 255, 0.318);
+    content: attr(data-title) !important;
+
+}
+
+.container2 {
+    filter: drop-shadow(2px 4px 6px black);
+
+}
+
+.redwineimg {
+    width: 500px;
+    height: 500px;
+
+}
+
+.Iphone {
+    width: 500px;
+
+}
+
+._imgholder {
+    position: relative;
+}
+
+.Iframe_ {
+    top: 43px;
+    position: absolute;
+    width: 71%;
+    height: 720px;
+    right: 15%;
+    overflow: hidden;
+    border-radius: 47px;
+}
+
+.iphoneiframe {
+    width: 100%;
+    height: 100%;
+}

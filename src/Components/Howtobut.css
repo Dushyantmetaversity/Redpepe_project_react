@@ -1,0 +1,109 @@
+.HowToBuy {
+    background-color: #df4146;
+    padding: 7rem 0;
+}
+
+.boarderimgHowtobuy {
+    background-image: url("./img/download.svg");
+    background-repeat: repeat-x;
+    background-position: center;
+    background-size: contain;
+    filter: drop-shadow(2px 4px 6px black);
+
+    width: 100%;
+    height: 20px;
+}
+
+.containerhowtoby {
+    width: 100%;
+    margin: auto;
+    filter: drop-shadow(2px 4px 6px black);
+
+}
+
+._headcontainer {
+    font-size: 85px;
+    font-weight: 900;
+    color: white;
+    margin: 3.5rem auto;
+
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000;
+
+}
+
+._midcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    align-items: center;
+    justify-content: center;
+}
+
+._content {
+
+    border: 2px solid white;
+    width: 1172px;
+    height: 185px;
+    border-radius: 0px 24px;
+    background-color: #2e2b2b52;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    box-shadow: 7px 5px 30px -15px white
+}
+
+._content img {
+
+    object-fit: cover;
+    object-position: 50% 50%;
+    width: 75%;
+    border-radius: 106px;
+}
+
+._content ._text {
+    color: #fff;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: left;
+    gap: 2rem;
+    margin: 20px;
+}
+
+.heading_ {
+    font-size: 2rem;
+}
+
+.content_ {
+    font-size: 1.5rem;
+}
+
+._downcontainer {
+    /* gap: 3%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.SecondImglogo {
+    width: 40%;
+}
+
+.SecondImggg {
+    width: 100%;
+}
+
+.iframcss {
+    width: 80%;
+
+}
+
+.imgcontain {
+    min-width: 200px;
+    max-width: 200px;
+}
