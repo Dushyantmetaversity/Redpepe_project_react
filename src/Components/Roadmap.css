@@ -133,3 +133,18 @@
     width: 84%;
     padding: 4rem;
 }
+
+@media (max-width: 768px ) {
+    
+    .third-left{
+width: 90%;
+    }
+    .innercontainer{
+        padding:0px;
+    }
+    .first_main_container,.third_container,.second_container{
+width: 100%;
+        flex-direction: column;
+
+    }
+}

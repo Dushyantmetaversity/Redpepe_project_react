@@ -107,3 +107,21 @@
     min-width: 200px;
     max-width: 200px;
 }
+
+@media (max-width: 768px) {
+    ._content{
+        width:80%;
+        flex-direction: column;
+        height: unset;
+    }
+    ._downcontainer{
+        flex-direction: column;
+    }
+    .iframcss{
+        width: 100%;
+    }
+    .iframcss iframe{
+        width: 95%;
+        height: 90vh;
+    }
+}

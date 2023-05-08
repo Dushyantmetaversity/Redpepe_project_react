@@ -61,3 +61,20 @@
     filter: drop-shadow(2px 4px 6px black);
 
 }
+@media (max-width: 768px) {
+    .logogogog{
+        margin-right:0%;
+    }
+    .headercsss{
+        height: auto;
+        flex-direction: column;
+    }
+    .headercsss ul{
+        flex-direction: column;
+        width: 100%;
+
+    }
+    .maintokenomaics {
+        flex-direction: column;
+    }
+}

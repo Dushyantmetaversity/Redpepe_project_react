@@ -49,3 +49,19 @@
     width: 124%;
     font-size: 22px;
 }
+
+@media (max-width: 768px) {
+    ._aboutleft{
+        width: calc(100vw - 32px);
+
+    }
+    .Aboutcontainer{
+        flex-direction: column;
+        align-items: center;
+    }
+    .aboutdetailsone, .aboutdetailstwo{
+        width: calc(100vw - 32px);
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+}

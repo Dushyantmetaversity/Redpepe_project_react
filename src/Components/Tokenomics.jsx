@@ -49,7 +49,7 @@ const Tokenomics = () => {
               <div className="CEXListings">
                 <img className="dmodal" src={Giiff} alt="3dimg" width="100%" />
                 <div className="graphfortokenomics">
-                  <img src={CEXListingssss} alt="Graph for TOKENOMICS" />
+                  <img src={CEXListingssss} alt="Graph for TOKENOMICS" style={{maxWidth:"100%"}} />
                 </div>
               </div>
             </div>

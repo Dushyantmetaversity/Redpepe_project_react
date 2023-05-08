@@ -1,127 +1,139 @@
 ._parent_tokenomics {
-    background-color: #df4146;
-    padding: 7rem 0;
-
+  background-color: #df4146;
+  padding: 7rem 0;
 }
 
 .boarderimgtokenomics {
-    background-image: url("./img/download.svg");
-    background-repeat: repeat-x;
-    background-position: center;
-    background-size: contain;
-    filter: drop-shadow(2px 4px 6px black);
+  background-image: url("./img/download.svg");
+  background-repeat: repeat-x;
+  background-position: center;
+  background-size: contain;
+  filter: drop-shadow(2px 4px 6px black);
 
-    width: 100%;
+  width: 100%;
 
-    height: 20px;
+  height: 20px;
 }
 
 .container_tokenomics {
-    width: 100%;
-    margin: auto;
-    filter: drop-shadow(2px 4px 6px black);
-
+  width: 100%;
+  margin: auto;
+  filter: drop-shadow(2px 4px 6px black);
 }
 
 .maintokenomaics {
-    display: flex;
-    /* height: 129vh; */
-    align-items: center;
-    justify-content: center;
-    width: 71%;
-    margin: auto;
-    gap: 5%;
+  display: flex;
+  /* height: 129vh; */
+  align-items: center;
+  justify-content: center;
+  width: 71%;
+  margin: auto;
+  gap: 5%;
 }
 
 ._rightTokenSupply {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
 }
 
 .TOKENOMICS {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 89px;
-    font-weight: 900;
-    color: white;
-    margin: 11.5rem auto;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 89px;
+  font-weight: 900;
+  color: white;
+  margin: 11.5rem auto;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #000;
 }
 
 .TokenSupply {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    font-size: 42px;
-    font-weight: bolder;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: #000;
-    color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 42px;
+  font-weight: bolder;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #000;
+  color: #fff;
 }
 
 .NoTaxesNoBullshit {
-    font-size: 22px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 23px;
-    padding-top: 4rem;
-    border: 2px solid white;
-    border-radius: 0px 28px;
-    width: 88%;
-    height: 320px;
-    background-color: #0000005e;
-    box-shadow: 7px 5px 30px -15px white
+  font-size: 22px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 23px;
+  padding-top: 4rem;
+  border: 2px solid white;
+  border-radius: 0px 28px;
+  width: 88%;
+  height: 320px;
+  background-color: #0000005e;
+  box-shadow: 7px 5px 30px -15px white;
 }
 
 ._leftTokenSupply {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    gap: 37px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 37px;
 }
 
 .CEXListings {
-    width: 71%;
+  width: 71%;
 }
 
 .Bullshit {
-    letter-spacing: 0em;
-    font-size: 26px;
-    color: white;
+  letter-spacing: 0em;
+  font-size: 26px;
+  color: white;
 }
 
 .renounced {
-    letter-spacing: 0em;
-    font-size: 28px;
-    color: white;
-    width: 82%;
+  letter-spacing: 0em;
+  font-size: 28px;
+  color: white;
+  width: 82%;
 }
 
 .uperCEXListings {
-    font-size: 22px;
-    color: white;
+  font-size: 22px;
+  color: white;
 }
 
 .graphfortokenomics {
-    position: absolute;
-    top: 7%;
-    margin-left: -16.5%;
-
+  position: absolute;
+  top: 7%;
+  margin-left: -16.5%;
 }
 
 .dmodal {
-
+  position: relative;
+  z-index: 10;
+  filter: drop-shadow(7px 7px 6px black);
+}
+@media (max-width: 768px) {
+  .TOKENOMICS {
+    font-size: 11vw;
+  }
+  .maintokenomaics {
+    width: 100%;
+  }
+  .graphfortokenomics {
+    margin-right: -25%;
+    margin-left: -25%;
+    top: -20%;
+  }
+  .CEXListings {
+    width: 100%;
     position: relative;
-    z-index: 10;
-    filter: drop-shadow(7px 7px 6px black);
-
+  }
 }
