@@ -61,20 +61,51 @@
     filter: drop-shadow(2px 4px 6px black);
 
 }
+
 @media (max-width: 768px) {
-    .logogogog{
-        margin-right:0%;
+    .logogogog {
+        margin-right: 0%;
     }
-    .headercsss{
+
+    .headercsss {
         height: auto;
         flex-direction: column;
     }
-    .headercsss ul{
+
+    .headercsss ul {
         flex-direction: column;
         width: 100%;
 
     }
+
     .maintokenomaics {
         flex-direction: column;
     }
+
+    .listttt {
+        display: none;
+    }
+
+    .buttonnn {
+        display: none;
+    }
+
+    ._burgermenu {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        padding: 0 20px 10px;
+    }
+
+    /* .overlay {
+        height: 100%;
+        background-color: transparent;
+        position: fixed;
+        width: 100%;
+        z-index: 99;
+        overflow-y: hidden;
+    } */
+
+
 }

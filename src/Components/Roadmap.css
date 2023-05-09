@@ -130,8 +130,11 @@
 }
 
 .innercontainer {
-    width: 84%;
+    width: 100%;
     padding: 4rem;
+}
+.innercontainer ul li {
+    text-align: left;
 }
 
 @media (max-width: 768px ) {
@@ -147,4 +150,6 @@ width: 100%;
         flex-direction: column;
 
     }
+   
+    
 }

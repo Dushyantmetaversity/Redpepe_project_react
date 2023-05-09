@@ -120,20 +120,27 @@
   z-index: 10;
   filter: drop-shadow(7px 7px 6px black);
 }
+
 @media (max-width: 768px) {
   .TOKENOMICS {
     font-size: 11vw;
   }
+
   .maintokenomaics {
     width: 100%;
   }
+
   .graphfortokenomics {
-    margin-right: -25%;
+    margin-right: -0%;
     margin-left: -25%;
     top: -20%;
   }
+
   .CEXListings {
     width: 100%;
     position: relative;
   }
+  ._leftTokenSupply {
+    gap: 153px;
+}
 }
