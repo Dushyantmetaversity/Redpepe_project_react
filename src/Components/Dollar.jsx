@@ -141,7 +141,7 @@ const Dollar = () => {
                   </div>
                 </div>
               </div>
-              <a className="buybtnn" href="http://15.207.226.246:9051"> Click here for Redpepe beta version</a>
+              <a className="buybtnn" href="http://15.207.226.246:9051">Redpepe beta version</a>
 
             </div>
             <div className="_buttonholder">

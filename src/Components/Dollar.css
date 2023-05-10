@@ -187,10 +187,15 @@
     }
 }
 
+.buybtnn {
+    display: none;
+}
+
 @media (max-width: 768px) {
     ._parent {
         flex-direction: column;
         width: 90%;
+        gap: 10px;
     }
 
     /* ._parent .right {
@@ -255,7 +260,7 @@
         text-align: center;
         width: 42%;
         padding: 1rem;
-        font-size: 25px;
+        font-size: 15px;
         color: white;
         background-color: #00000096;
         margin: auto;
