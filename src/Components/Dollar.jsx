@@ -22,7 +22,6 @@ import Wixstatic from './img/wixstatic.png'
 const Dollar = () => {
   // 
 
-  // <a className="buybtnn" href="http://15.207.226.246:9051"> Buy now</a>
 
   // <a href="/" className="pill">
   //         <span>
@@ -142,6 +141,7 @@ const Dollar = () => {
                   </div>
                 </div>
               </div>
+              <a className="buybtnn" href="http://15.207.226.246:9051"> Click here for Redpepe beta version</a>
 
             </div>
             <div className="_buttonholder">
