@@ -37,6 +37,7 @@
   align-items: center;
   justify-content: center;
   gap: 40px;
+  width: 60%;
 }
 
 .TOKENOMICS {
@@ -67,13 +68,15 @@
   font-size: 22px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
+  justify-content: flex-start;
   gap: 23px;
   padding-top: 4rem;
   border: 2px solid white;
   border-radius: 0px 28px;
   width: 88%;
-  height: 320px;
+  padding: 2rem;
+  /* height: 320px; */
   background-color: #0000005e;
   box-shadow: 7px 5px 30px -15px white;
 }
@@ -83,12 +86,12 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 100%;
+  width: 40%;
   gap: 37px;
 }
 
 .CEXListings {
-  width: 71%;
+  width: 100%;
 }
 
 .Bullshit {
@@ -101,7 +104,7 @@
   letter-spacing: 0em;
   font-size: 28px;
   color: white;
-  width: 82%;
+  /* width: 82%; */
 }
 
 .uperCEXListings {
@@ -121,6 +124,17 @@
   filter: drop-shadow(7px 7px 6px black);
 }
 
+
+
+@media (min-width: 768px) {
+  .graphfortokenomics {
+    position: absolute;
+    top: 18%;
+    margin-left: -15.5%;
+
+  }
+}
+
 @media (max-width: 768px) {
   .TOKENOMICS {
     font-size: 11vw;
@@ -131,8 +145,8 @@
   }
 
   .graphfortokenomics {
-    margin-right: -0%;
-    margin-left: -25%;
+    /* margin-right: -0%;
+    margin-left: -25%; */
     top: -20%;
   }
 
@@ -140,7 +154,41 @@
     width: 100%;
     position: relative;
   }
+
+
+  .renounced {
+    /* letter-spacing: 0em; */
+    font-size: 25px;
+    color: white;
+    width: 100%;
+  }
+
+  ._rightTokenSupply {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    width: 80%;
+  }
+
   ._leftTokenSupply {
-    gap: 153px;
+    /* gap: 70px; */
+  }
+
+  ._leftTokenSupply {
+
+    width: 100%;
+
+  }
+
+  .dmodal {
+    position: relative;
+    z-index: 10;
+    width: 100%;
+    filter: drop-shadow(7px 7px 6px black);
+  }
+  .mainconatiner {
+    padding: 0rem 0;
 }
 }

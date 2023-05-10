@@ -21,9 +21,41 @@ import Wixstatic from './img/wixstatic.png'
 
 const Dollar = () => {
   // 
+
+
+  // <a href="/" className="pill">
+  //         <span>
+  //           MEXC
+  //         </span>
+
+  //         <div className="_imgwrap">
+  //           <img src={Wixstatic} alt="uniswap" />
+  //         </div>
+
+  //       </a>
+  //        <a href="/" className="pill">
+  //         <span>
+  //           okx dex
+  //         </span>
+
+  //         <div className="_imgwrap">
+  //           <img src={Removebg} alt="uniswap" />
+  //         </div>
+
+  //       </a>
+  //        <a href="/" className="pill">
+  //         <span>
+  //           lbank
+  //         </span>
+
+  //         <div className="_imgwrap">
+  //           <img src={Iback} alt="uniswap" />
+  //         </div>
+
+  //       </a>
   return (
     <React.Fragment>
-      <div className="_dollar">
+      <div className="_dollar" id="dollar">
         <div className="container">
           <div className="container2">
             <div className="_parent">
@@ -112,8 +144,8 @@ const Dollar = () => {
             </div>
             <div className="_buttonholder">
               <a href="/" className="pill" data-title={
-                                                "Soon"
-                                                        }>
+                "Soon"
+              }>
                 <span>
                   Pancakeswap
                 </span>
@@ -123,16 +155,7 @@ const Dollar = () => {
                 </div>
 
               </a>
-              <a href="/" className="pill">
-                <span>
-                  MEXC
-                </span>
 
-                <div className="_imgwrap">
-                  <img src={Wixstatic} alt="uniswap" />
-                </div>
-
-              </a>
               <a href="/" className="pill">
                 <span>
                   gate.io
@@ -163,26 +186,8 @@ const Dollar = () => {
                 </div>
 
               </a>
-              <a href="/" className="pill">
-                <span>
-                  okx dex
-                </span>
 
-                <div className="_imgwrap">
-                  <img src={Removebg} alt="uniswap" />
-                </div>
 
-              </a>
-              <a href="/" className="pill">
-                <span>
-                  lbank
-                </span>
-
-                <div className="_imgwrap">
-                  <img src={Iback} alt="uniswap" />
-                </div>
-
-              </a>
               <a href="/" className="pill">
                 <span>
                   bingx
@@ -225,11 +230,11 @@ const Dollar = () => {
               </a>
               <a href="/" className="pill">
                 <span>
-                  pancakeswap
+                  lbank
                 </span>
 
                 <div className="_imgwrap">
-                  <img src={uniswap} alt="uniswap" />
+                  <img src={Iback} alt="uniswap" />
                 </div>
 
               </a>

@@ -7,7 +7,7 @@ import Susus from './img/susus.png'
 const Roadmap = () => {
   return (
     <React.Fragment>
-      <div className="mainconatiner">
+      <div className="mainconatiner" id="roadmap">
         <div className="roadmapheaderline">
 
         </div>
@@ -54,16 +54,25 @@ const Roadmap = () => {
               </sapn>
               <ul>
                 <li>
-                  Launch
+                  Creation of a REDPEPE ideology
                 </li>
                 <li>
-                  CoinGecko/Coinmark etcap Listings
+                  website creation and launch
                 </li>
                 <li>
-                  1,000+ Holders
+                  RedPepe release
                 </li>
                 <li>
-                  Get $RPEPE Trending on twitter with our memetic power
+                  Marketing capaign
+                </li>
+                <li>
+                  Consulting and advisor
+                </li>
+                <li>
+                  army of REDPEPE
+                </li>
+                <li>
+                  Betting platform Beta Release
                 </li>
               </ul>
             </div>
@@ -78,13 +87,25 @@ const Roadmap = () => {
               </sapn>
               <ul>
                 <li>
-                  Community Partnerships Redpepe Times digital newsletter
+                  Huge Marketing Campaign
                 </li>
                 <li>
-                  Formation of token gated discord group, Redpepe Palace, for holders, more details tba
+                  DEX Launch
                 </li>
                 <li>
-                  CEX Listings 10,000+holders
+                  CoinGecko and CoinMarketCap Campaign
+                </li>
+                <li>
+                  2000 holders
+                </li>
+                <li>
+                  Partnerships with influencers
+                </li>
+                <li>
+                  Billboard Advertisement in front of SpaceX office
+                </li>
+                <li>
+                  Betting Platform Testnet Lounch
                 </li>
 
               </ul>
@@ -98,20 +119,27 @@ const Roadmap = () => {
               </sapn>
               <ul>
                 <li>
-                  Redpepe merch
+                  Available Betting and Gambling Platform
                 </li>
                 <li>
-                Redpepe Academy
+                  Merchandising for community
                 </li>
                 <li>
-                Redpepe Tools
+                  Tier 2 CEX Listings
                 </li>
                 <li>
-                  T1 Exchange Listings 100,000+ holders
+                  Working on P2E game
                 </li>
                 <li>
-                  Meme Takeover
+                  10 Million MarketCap
                 </li>
+                <li>
+                  Ads campaign with Crypto Ambassadors
+                </li>
+                <li>
+                  NFT Marketplace release
+                </li>
+
               </ul>
             </div>
           </div>

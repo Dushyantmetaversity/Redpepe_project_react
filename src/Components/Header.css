@@ -9,7 +9,10 @@
     align-items: center;
     gap: 20px;
     z-index: 99;
-    isolation: isolate;
+    position: sticky;
+    top: 0;
+    right: 0;
+    /* isolation: isolate; */
 }
 
 .headercsss ul {
@@ -37,7 +40,7 @@
 
 .listttt {
     filter: drop-shadow(2px 4px 6px black);
-
+    cursor: pointer;
 }
 
 .buybutton {
@@ -53,6 +56,7 @@
 
     font-family: Courier New;
     font-weight: 600;
+    cursor: pointer;
 
     background: transparent;
 }
@@ -62,9 +66,44 @@
 
 }
 
+@media (min-width: 768px) {
+    .hamburger-react {
+        display: none;
+    }
+
+    .mobile-menu {
+        display: none;
+    }
+}
+
+.burger-button {
+    z-index: 200;
+    position: fixed;
+    top: 0;
+    right: 0;
+
+}
+
+.overlay {
+    width: 100vw;
+    height: 100vh;
+    /* background-color: rgba(256, 256, 256, 0.8); */
+    background: rgb(223, 65, 70);
+
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+}
+
 @media (max-width: 768px) {
     .logogogog {
-        margin-right: 0%;
+        margin: auto;
+           width: 69%;
     }
 
     .headercsss {
@@ -72,11 +111,11 @@
         flex-direction: column;
     }
 
-    .headercsss ul {
+    /* .headercsss ul {
         flex-direction: column;
         width: 100%;
 
-    }
+    } */
 
     .maintokenomaics {
         flex-direction: column;
@@ -84,6 +123,7 @@
 
     .listttt {
         display: none;
+
     }
 
     .buttonnn {
@@ -93,9 +133,10 @@
     ._burgermenu {
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: center;
         width: 100%;
-        padding: 0 20px 10px;
+        /* padding: 0 20px 10px; */
+        gap: 28%;
     }
 
     /* .overlay {
@@ -106,6 +147,19 @@
         z-index: 99;
         overflow-y: hidden;
     } */
+    .mobile-menu {
+        width: 100%;
 
+    }
 
+    .headercsss ul {
+        flex-direction: column;
+        width: unset;
+    }
+    .mobile-menu ul {
+        width: 80%;
+        display: block;
+        line-height: 3.2;
+        text-align: center;
+    }
 }

@@ -109,19 +109,34 @@
 }
 
 @media (max-width: 768px) {
-    ._content{
-        width:80%;
+    ._content {
+        width: 80%;
         flex-direction: column;
         height: unset;
     }
-    ._downcontainer{
+
+    ._downcontainer {
         flex-direction: column;
+        width: 90%;
+        margin: auto;
+        margin-top: 48px;
     }
-    .iframcss{
+
+    .iframcss {
         width: 100%;
     }
-    .iframcss iframe{
+
+    .iframcss iframe {
         width: 95%;
         height: 90vh;
+    }
+
+    .SecondImglogo {
+        width: 100%;
+    }
+
+    .HowToBuy {
+        background-color: #df4146;
+        padding: 3rem 0;
     }
 }

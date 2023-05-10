@@ -9,7 +9,7 @@ import twtttt from "./img/twtttt.png"
 const Contact = () => {
   return (
     <React.Fragment>
-      <div className="maincontainer-contact">
+      <div className="maincontainer-contact"  id="contact">
         <div className="container-contact">
         </div>
         <div className="inner-container-contact">

@@ -77,14 +77,16 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 21px;
+    gap: 10px;
     border: 2px solid white;
     margin: auto;
     padding: 1rem;
+    text-align: left;
+
     width: 68%;
     border-radius: 0px 30px;
     color: white;
-    font-size: 22px;
+    font-size: 19px;
     background-color: #0000005e;
     box-shadow: 7px 5px 30px -15px white
 }
@@ -133,23 +135,38 @@
     width: 100%;
     padding: 4rem;
 }
+
 .innercontainer ul li {
     text-align: left;
 }
 
-@media (max-width: 768px ) {
-    
-    .third-left{
-width: 90%;
+/* .first-mid-lower ul li {
+    text-align: left;
+} */
+
+@media (max-width: 768px) {
+
+    .third-left {
+        width: 90%;
     }
-    .innercontainer{
-        padding:0px;
+
+    .innercontainer {
+        padding: 0px;
     }
-    .first_main_container,.third_container,.second_container{
-width: 100%;
+
+    .first_main_container,
+    .third_container,
+    .second_container {
+        width: 100%;
         flex-direction: column;
 
     }
-   
-    
+
+    .first_left {
+        width: 100%;
+    }
+
+    .first-right {
+        width: 75%;
+    }
 }

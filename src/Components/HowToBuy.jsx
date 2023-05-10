@@ -10,7 +10,7 @@ const HowToBuy = () => {
   return (
     <React.Fragment>
 
-      <div className="HowToBuy">
+      <div className="HowToBuy" id="HowToBuy">
         <div className='boarderimgHowtobuy'>
 
 
@@ -27,9 +27,9 @@ const HowToBuy = () => {
               </div>
               <div className='_text'>
                 <span className='heading_'>Create a Wallet</span>
-                <span className='content_'>ownload metamask or your wallet of
+                <span className='content_'>Download metamask or your wallet of
                   choice from the app store or google play store for free.
-                  Desktop users, download the google chrome extension by going to metamask.io.
+                  Desktop users, download the google chrome extension.
                 </span>
               </div>
             </div>
@@ -39,7 +39,7 @@ const HowToBuy = () => {
               </div>
               <div className='_text'>
                 <span className='heading_'>Get Some BNB</span>
-                <span className='content_'>have BNB in your wallet to switch to $RPEPE. If you don’t have any BNB,
+                <span className='content_'>Have BNB in your wallet to switch to $RPEPE. If you don’t have any BNB,
                   you can buy directly on metamask,
                   transfer from another wallet, or buy on another exchange and send it to your wallet.
 
@@ -55,7 +55,7 @@ const HowToBuy = () => {
                 <span className='heading_'>Go to Pancakeswap
 
                 </span>
-                <span className='content_'>connect to Pancakeswap. Go to Pancakeswap.finance in google chrome or on
+                <span className='content_'>Connect to Pancakeswap. Go to Pancakeswap.finance in google chrome or on
                   the browser inside your Metamask app. Connect your wallet. Paste the $RPEPE token address into Pancakeswap,
                   select RedPepe, and confirm. When Metamask prompts you for a wallet signature, sign.
 
