@@ -135,8 +135,12 @@
         width: 100%;
     }
 
+    ._headcontainer {
+        font-size: 64px;
+    }
+
     .HowToBuy {
         background-color: #df4146;
-        padding: 3rem 0;
+        padding: 0rem 0;
     }
 }

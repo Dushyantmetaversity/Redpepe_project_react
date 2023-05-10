@@ -33,15 +33,17 @@ const Tokenomics = () => {
                 </span>
               </div>
               <div className="NoTaxesNoBullshit">
-                <div>
+                <div >
                   <span className="Bullshit">
                     No Taxes, No Bullshit. It’s that simple.
                   </span>
                   <span className="renounced">
-                    93.1% of the tokens were sent to the liquidity pool,
-                    LP tokens were burnt, and contract is renounced. The remaining 6.9% of the
-                    supply is being held in a multi-sig wallet only to be used as tokens for future centralized exchange listings,
-                    bridges, and liquidity pools. This wallet is easily trackable with the ENS name “pepecexwallet.eth”
+                    Redpepe is a meme coin tailored for betting platforms, providing
+                    users with a straightforward payment option. With 93.1% of tokens
+                    in the liquidity pool and LP tokens burnt, Redpepe ensures stability. The remaining 6.9% of
+                    the supply is being held in a multi-sig wallet for future centralized exchange listings and liquidity pools.
+                    Additionally, users who choose to pay with Redpepe may receive exclusive benefits, such as discounts or access
+                    to special promotions, enhancing their betting experience.
 
 
                   </span>
@@ -55,7 +57,7 @@ const Tokenomics = () => {
               </div>
               <div className="CEXListings">
                 <img className="dmodal" src={ModalsGraph} alt="3dimg" width="700px" />
-                
+
               </div>
             </div>
           </div>

@@ -78,7 +78,7 @@
 
 ._imgwrap {
     filter: drop-shadow(2px 4px 6px black);
- 
+
     margin-right: 4%;
 }
 
@@ -161,6 +161,21 @@
     border-radius: 47px;
 }
 
+.buybtnn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 42%;
+    padding: 1rem;
+    font-size: 25px;
+    color: white;
+    background-color: #00000096;
+    margin: auto;
+    border: 2px solid white;
+    border-radius: 12px;
+}
+
 .iphoneiframe {
     width: 100%;
     height: 100%;
@@ -231,5 +246,20 @@
     ._dollar {
         background-color: #df4146;
         padding: 1rem 0;
+    }
+
+    .buybtnn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 42%;
+        padding: 1rem;
+        font-size: 25px;
+        color: white;
+        background-color: #00000096;
+        margin: auto;
+        border: 2px solid white;
+        border-radius: 12px;
     }
 }

@@ -68,6 +68,7 @@
   font-size: 22px;
   display: flex;
   flex-direction: column;
+  text-align: initial;
   align-items: flex-start;
   justify-content: flex-start;
   gap: 23px;
@@ -163,6 +164,11 @@
     width: 100%;
   }
 
+  .TOKENOMICS {
+
+    margin: 5.5rem auto;
+  }
+
   ._rightTokenSupply {
     display: flex;
     flex-direction: column;
@@ -188,7 +194,8 @@
     width: 100%;
     filter: drop-shadow(7px 7px 6px black);
   }
+
   .mainconatiner {
     padding: 0rem 0;
-}
+  }
 }

@@ -49,6 +49,7 @@
     text-align: center;
     width: 124%;
     font-size: 29px;
+
     margin-bottom: 24px;
 }
 
@@ -63,6 +64,15 @@
         display: flex;
         /* justify-content: center; */
         gap: 54px;
+    }
+
+    .aboutdetailsone,
+    .aboutdetailstwo {
+        text-align: center;
+        width: 124%;
+        font-size: 20px;
+
+        margin-bottom: 24px;
     }
 
     .Aboutcontainer {

@@ -9,7 +9,7 @@ import twtttt from "./img/twtttt.png"
 const Contact = () => {
   return (
     <React.Fragment>
-      <div className="maincontainer-contact"  id="contact">
+      <div className="maincontainer-contact" id="contact">
         <div className="container-contact">
         </div>
         <div className="inner-container-contact">
@@ -38,13 +38,17 @@ const Contact = () => {
           <div className="contact-details">
             <span className="dataa">
 
-              Redpepe coin has no association with Matt Furie or his
-              creation Pepe the Frog. This token is simply paying homage to a
-              meme we all love and recognize.
+              Red Pepe is a cutting-edge web 3.0 platform that offers a thrilling
+              casino and sports betting experience to its users. The platform is designed
+              to provide a secure, transparent, and decentralized environment for online
+              gambling and sports betting, utilizing the latest blockchain technology.
+
             </span>
-            <span className="dataa">Redpepe is a meme coin with no
-              intrinsic value or expectation of financial return. There is no formal team or roadmap. the coin is completely
-              useless and for entertainment purposes only.
+            <span className="dataa">
+              Red Pepe's casino offers a wide range of games, including classic
+              favorites such as blackjack, poker, and roulette, as well as modern video slots
+              and live dealer games. The platform ensures fair play through its use of provably fair
+              algorithms, which allow players to verify the fairness of each game they play.
             </span>
           </div>
         </div>
