@@ -33,7 +33,7 @@ const Tokenomics = () => {
                 </span>
               </div>
               <div className="NoTaxesNoBullshit">
-                <div >
+                <div className="djsfdjfjklsd" >
                   <span className="Bullshit">
                     No Taxes, No Bullshit. It’s that simple.
                   </span>
