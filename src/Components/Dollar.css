@@ -72,14 +72,23 @@
 }
 
 ._imgholder {
-    width: 476px;
-    height: 483px;
+    width: 400px;
+    height: 400px;
 }
 
 ._imgwrap {
     filter: drop-shadow(2px 4px 6px black);
 
     margin-right: 4%;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 284px;
 }
 
 ._imgholder img {
@@ -117,6 +126,14 @@
 
 }
 
+.buybtnnnnnnnnn {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    z-index: 2;
+}
+
 ._buttonholder .pill ._imgwrap img {
     height: 34px;
     width: 34px;
@@ -151,14 +168,16 @@
     position: relative;
 }
 
+
+
 .Iframe_ {
-    top: 43px;
+    top: 35px;
     position: absolute;
     width: 71%;
-    height: 720px;
+    height: 606px;
     right: 15%;
     overflow: hidden;
-    border-radius: 47px;
+    border-radius: 41px;
 }
 
 .buybtnn {
@@ -166,14 +185,24 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    width: 42%;
+    width: 60%;
     padding: 1rem;
-    font-size: 25px;
+
+
+    font-size: 15px;
     color: white;
-    background-color: #00000096;
+    background-color: #00000042;
     margin: auto;
-    border: 2px solid white;
+    border: 1px solid white;
     border-radius: 12px;
+    flex-direction: column;
+}
+
+
+.buybtnn:hover {
+    background-color: rgba(255, 255, 255, 0.318);
+    content: attr(data-title) !important;
+
 }
 
 .iphoneiframe {
@@ -187,9 +216,9 @@
     }
 }
 
-.buybtnn {
+/* .buybtnn {
     display: none;
-}
+} */
 
 @media (max-width: 768px) {
     ._parent {
@@ -258,13 +287,29 @@
         align-items: center;
         justify-content: center;
         text-align: center;
-        width: 42%;
+        width: 60%;
         padding: 1rem;
         font-size: 15px;
         color: white;
-        background-color: #00000096;
+        background-color: #00000042;
         margin: auto;
-        border: 2px solid white;
+        border: 1px solid white;
         border-radius: 12px;
+        flex-direction: column;
+    }
+
+    .buybtnn:hover {
+        background-color: rgba(255, 255, 255, 0.318);
+        content: attr(data-title) !important;
+
+    }
+
+    .right {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
     }
 }

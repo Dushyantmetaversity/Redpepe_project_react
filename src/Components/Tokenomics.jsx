@@ -38,7 +38,7 @@ const Tokenomics = () => {
                     No Taxes, No Bullshit. It’s that simple.
                   </span>
                   <span className="renounced">
-                    Redpepe is a meme coin tailored for betting platforms, providing
+                    Redpepe is a native currency for betting platforms, providing
                     users with a straightforward payment option. With 93.1% of tokens
                     in the liquidity pool and LP tokens burnt, Redpepe ensures stability. The remaining 6.9% of
                     the supply is being held in a multi-sig wallet for future centralized exchange listings and liquidity pools.

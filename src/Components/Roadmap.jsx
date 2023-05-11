@@ -69,7 +69,7 @@ const Roadmap = () => {
                   Consulting and advisor
                 </li>
                 <li>
-                  army of REDPEPE
+                  Army of REDPEPE
                 </li>
                 <li>
                   Betting platform Beta Release
