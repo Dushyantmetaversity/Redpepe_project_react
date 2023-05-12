@@ -91,9 +91,9 @@ const Header = ({ isOpen, setOpen }) => {
           <img className="logogogog" src={Logo} alt="logo" />
         </div>
         <div>
-        <div className="burger-button">
-          <Hamburger toggled={isOpen} toggle={setOpen} color="#fff" />
-        </div>
+          <div className="burger-button">
+            <Hamburger toggled={isOpen} toggle={setOpen} color="#fff" />
+          </div>
         </div>
       </div>
       {
@@ -124,7 +124,7 @@ const Header = ({ isOpen, setOpen }) => {
         </ul>
       </div>
       <div className="buttonnn">
-        <button className="buybutton"> Buy now</button>
+        <a style={{ padding: "12px" }} fref="https://www.redpepe.live/" className="buybutton"> Buy now</a>
       </div>
     </header>
 

@@ -22,9 +22,9 @@ const Roadmap = () => {
             <div className="first_mid">
               <div className="first-mid-upper">ROAD MAP</div>
               <div className="first-mid-lower">
-                <sapn> Phase 1: Meme</sapn>
-                <sapn>Phase 2: Vibe and HODL</sapn>
-                <sapn>Phase 3: Meme Takeover</sapn>
+                <sapn> Phase 1: Community Establishment</sapn>
+                <sapn>Phase 2: Testnet Launch</sapn>
+                <sapn>Phase 3: Betting Platform Live</sapn>
               </div>
             </div>
             <div className="first-right">

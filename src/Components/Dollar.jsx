@@ -136,14 +136,13 @@ const Dollar = () => {
                   />
 
                   <div className="Iframe_">
-                    <iframe className="iphoneiframe" title="Embedded Content" width="58%" frameBorder="0" height="400px" allow="fullscreen"
-                      src="http://15.207.226.246:9051">
-                    </iframe>
+
+                    <iframe className="iphoneiframe" src="https://www.redpepe.live/" frameborder="1" >  </iframe>
                   </div>
                 </div>
 
                 <div className="buybtnnnnnnnnn">
-                  <a style={{ textDecoration: "none" }} className="buybtnn" href="http://15.207.226.246:9051">Click here for Red Pepe beta version</a>
+                  <a style={{ textDecoration: "none" }} className="buybtnn" href="https://www.redpepe.live/">Click here for Red Pepe beta version</a>
                 </div>
               </div>
 
